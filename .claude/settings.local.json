@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/ingestion.py)",
+      "Bash(python -m src.pose_analysis)",
+      "Bash(python -c \"import app.streamlit_app\")",
+      "Bash(python -c \":*)",
+      "Bash(pip show:*)"
+    ]
+  }
+}
