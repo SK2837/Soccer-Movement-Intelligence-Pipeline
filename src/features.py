@@ -474,4 +474,3 @@ if __name__ == "__main__":
     print(f"\nShot label distribution:\n{features.iloc[:, -1].value_counts()}")
 
     save_features(features, MATCH_ID)
-
