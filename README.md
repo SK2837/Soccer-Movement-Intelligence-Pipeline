@@ -195,6 +195,34 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
+## Dashboard Screenshots
+
+### Match Explorer
+Visualizes EPV heatmaps, top possession events, and defensive pressure scores for any selected match.
+
+![Match Explorer 1](Match%20Explorer_1.png)
+![Match Explorer 2](Match%20Explorer_2.png)
+![Match Explorer 3](Match%20Explorer_3.png)
+
+---
+
+### Pose Analyzer
+Upload a player image to extract MediaPipe skeletal keypoints and compute biomechanical metrics.
+
+![Pose Analyser 1](Pose%20Analyser_1.png)
+![Pose Analyser 2](Pose_Analyser_2.png)
+
+---
+
+### Player Comparison
+Compare defensive metrics (PPDA, Voronoi space control, pressure score) across multiple matches side by side.
+
+![Player Comparison 1](Player_Comparison_1.png)
+![Player Comparison 2](Player_Comparison_2.png)
+![Player Comparison 3](Player_Comparison_3.png)
+
+---
+
 ## Modules
 
 ### `src/ingestion.py`
